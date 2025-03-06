@@ -1,0 +1,31 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# YOLOv8 training
+runs/
+models/*/
+weights/*.pt
+!weights/.gitkeep
+
+# Large data files
+*.zip
+*.tar.gz
+*.mp4
+
+# Temporary files
+*.log
+*.tmp
